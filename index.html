@@ -11,7 +11,7 @@ html {
 
 		 .button {
 		border-radius: 20px;
-		background-color: #3D3D3D;
+		background-color: #2F2F2F;
 		 border: none;
 		 color: #3D3D3D;
 		 padding: 4px 20px;
@@ -46,7 +46,7 @@ html {
 
 		.button3 {
 	 border-radius: 20px;
-	 background-color: #3D3D3D;
+	 background-color: #2E2E2E;
 		border: none;
 		color: #3D3D3D;
 		padding: 3px 10px;
@@ -63,7 +63,7 @@ html {
 
 		.button3:hover {
 	 border-radius: 20px;
-	 background-color: #3D3D3D;
+	 background-color: #474747;
 		border: none;
 		color: #3D3D3D;
 		padding: 3px 10px;
@@ -77,6 +77,8 @@ html {
 		font-size: 16px;
 		margin: 4px 2px;
 		cursor: url("http://i.imgur.com/brjBbFw.png"), default;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: all 0.5s;
 		}
 
 		.column {
@@ -85,6 +87,21 @@ html {
 		 text-align:center;
      }
 
+		 .img {
+			 cursor: url("http://i.imgur.com/brjBbFw.png"), default;
+			 -webkit-transition-duration: 0.4s;
+				transition-duration: all 0.5s;
+     		  }
+
+			.text-glow {
+				-webkit-transition-duration: 0.4s;
+				transition-duration: all 0.5s;
+				      	 }
+			.text-glow:hover {
+					    text-shadow: 0 0 20px #000000;
+							-webkit-transition-duration: 0.4s;
+							transition-duration: all 0.5s;
+					   }
 body {
 			margin: 7cm 10cm 20cm;
      }
@@ -105,7 +122,9 @@ body {
 		<p>
 			<em>
 				<center style="letter-spacing: 10px; text-indent: -10px">
+						<div class="text-glow">
 					RYAN WONG'S
+				    </div>
 				</center>
 				<center>
 					<font color="BDBDBD">
@@ -306,12 +325,13 @@ body {
 			<br>
 			<br>
 			<br>
-
+<div class="text-glow">
 			  <i>
 					<small>
 					WHY WEB DESIGN?
 				  </small>
 				</i>
+			</div class="text-glow">
 		</h2>
 
     <p style= "text-align:right; color:#CECECE; letter-spacing: 1px;">
@@ -332,6 +352,7 @@ body {
 
 <body>
 	<h4 style= "color:grey; letter-spacing: 4px;">
+		<div class="text-glow">
 		<i>
 			<small>
 				THE GOOD GOODS:
@@ -342,8 +363,10 @@ body {
 				</del>
 			</small>
 		</i>
+	  </div class="text-glow">
 	</h4>
 
+<div class="img">
 <center>
 	<font color=grey>
 <img src="http://www.awwwards.com/awards/sites_of_the_day/2016/09/awwwards-sotd-Sean-Klassen-1.jpg" style="width:690px;height:360px;">
@@ -407,7 +430,7 @@ body {
 
 	</font>
 </center>
-
+</div class="img">
 </body>
 
 </body>

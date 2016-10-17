@@ -1,0 +1,106 @@
+html {
+	background:-webkit-linear-gradient(135deg, #0A0A0A, #444444));
+	background: linear-gradient(-45deg, #0A0A0A, #444444);
+	cursor: url('https://blog.swiftkey.com/content/uploads/2015/05/Emoji-Poop.png'), default;
+     }
+
+		 .button {
+		border-radius: 20px;
+		background-color: #2F2F2F;
+		 border: none;
+		 color: #3D3D3D;
+		 padding: 4px 20px;
+		 text-align: center;
+		 text-decoration: none;
+		color: grey;
+		-webkit-transition-duration: 0.4s;
+ 	 transition-duration: all 0.5s;
+		 display: inline-block;
+		 font-size: 16px;
+		 margin: 4px 2px;
+		 cursor: pointer;
+		 }
+
+		 .button2:hover {
+	 border-radius: 20px;
+	 background-color: #474747;
+		border: none;
+		color: #3D3D3D;
+		padding: 4px 20px;
+		text-align: center;
+		text-decoration: none;
+	 color: grey;
+	 -webkit-transition-duration: 0.4s;
+	 transition-duration: all 0.5s;
+	 box-shadow: 0 3px 3px 0 #1E1E1E,0 9px 9px 0 #1E1E1E;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: url("http://i.imgur.com/YrzW7Uk.png"), default;
+		}
+
+		.button3 {
+	 border-radius: 20px;
+	 background-color: #2E2E2E;
+		border: none;
+		color: #3D3D3D;
+		padding: 3px 10px;
+		text-align: center;
+		text-decoration: none;
+	 color: grey;
+	 -webkit-transition-duration: 0.4s;
+	transition-duration: all 0.5s;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: url("http://i.imgur.com/brjBbFw.png"), default;
+		}
+
+		.button3:hover {
+	 border-radius: 20px;
+	 background-color: #474747;
+		border: none;
+		color: #3D3D3D;
+		padding: 3px 10px;
+		text-align: center;
+		text-decoration: none;
+	 color: grey;
+	 -webkit-transition-duration: 0.4s;
+	transition-duration: all 0.5s;
+	box-shadow: 0 3px 3px 0 #1E1E1E,0 9px 9px 0 #1E1E1E;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: url("http://i.imgur.com/brjBbFw.png"), default;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: all 0.5s;
+		}
+
+		.column {
+     width:342px;
+     float:left;
+		 text-align:center;
+     }
+
+		 .img {
+			 cursor: url("http://i.imgur.com/brjBbFw.png"), default;
+			 -webkit-transition-duration: 0.4s;
+				transition-duration: all 0.5s;
+     		  }
+
+			.text-glow {
+				-webkit-transition-duration: 0.4s;
+				transition-duration: all 0.5s;
+				      	 }
+			.text-glow:hover {
+					    text-shadow: 0 0 20px #000000;
+							-webkit-transition-duration: 0.4s;
+							transition-duration: all 0.5s;
+					   }
+body {
+			margin: 7cm 10cm 5cm;
+     }
+
+#blank li {
+		     list-style-type: none;
+		      }

@@ -3,16 +3,26 @@ html {
      }
 
 @font-face { font-family: Domaine; src: url('Domaine Display Black Italic.otf');}
-@font-face { font-family: Radikal; src: url('Radikal Bold.otf');}
-
+@font-face { font-family: TheSerif Caps; src: url('TheSerif-Caps.otf');}
+@font-face { font-family: Radikal Black; src: url('Radikal Black.otf');}
+@font-face { font-family: Radikal Bold; src: url('Radikal Bold.otf');}
+@font-face { font-family: Highway Gothic; src: url('Highway Gothic.ttf');}
 
 h1 {
-font-family: Domaine;
+font-family: Radikal Black;
 }
 
 h2 {
-font-family: Radikal;
-font-size: 12px;
+font-family: TheSerif Caps;
+font-size: 14px;
+letter-spacing: 0.3px;
+}
+
+h3 {
+font-family: Highway Gothic;
+font-size: 13px;
+letter-spacing: 0.3px;
+color: #444444;
 }
 
 
@@ -24,23 +34,25 @@ body {
 						margin-left: 50px;
 						position: fixed;
 						color: #7BE0CC;
-						}
+}
+
 .sidebar .wrapper {
 						color: #7BE0CC;
+						line-height: 1em;
 						padding: -3px;
 						margin-top: 10px;
 						margin-left: -10px;
 						width: 130px;
 						position: relative;
 						min-height: 530px;
-						}
+}
 
 .sidebar ul {
 						color: #7BE0CC;
 						margin: 0;
 						margin-left: -10px;
 						padding: 0;
-						}
+}
 
 .sidebar li {
 						color: #7BE0CC;
@@ -53,12 +65,12 @@ body {
 						position: relative;
     				bottom: 0;
     				left: 0;
-						}
+}
 
 .sidebar li a:visited {
 						color: #7BE0CC;
 						text-decoration: none;
-						}
+}
 
 .sidebar li a:hover {
 						color: #EEA0A3;
@@ -95,8 +107,9 @@ body {
 }
 
 .dropdown-content {
-		font-family: Radikal;
+		font-family: Radikal Bold;
 		font-variant: small-caps;
+		letter-spacing: 1.2px;
     position: absolute;
     min-width: 160px;
 		color: #FFFAEE;
@@ -117,7 +130,6 @@ body {
 				transition: opacity .8s;
 				opacity: 1;
 		    height: auto;
-
 }
 
 
@@ -143,4 +155,10 @@ body {
     color: #EEA0A3;
 		-webkit-transition-duration: 0.5s;
  	 transition-duration: all 0.5s;
+ }
+
+ br {
+   content: " ";
+   display: block;
+   margin: -10px;
  }

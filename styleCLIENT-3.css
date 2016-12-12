@@ -77,12 +77,10 @@ body {
 						margin-left: 50px;
 						position: fixed;
 						color: #7BE0CC;
-						text-decoration: none;
 }
 
 .sidebar .wrapper {
 						color: #7BE0CC;
-						text-decoration: none;
 						line-height: 1em;
 						padding: -3px;
 						margin-top: 10px;
@@ -94,7 +92,6 @@ body {
 
 .sidebar ul {
 						color: #7BE0CC;
-						text-decoration: none;
 						margin: 0;
 						margin-left: -10px;
 						padding: 0;
@@ -102,7 +99,6 @@ body {
 
 .sidebar li {
 						color: #7BE0CC;
-						text-decoration: none;
 						line-height: .5em;
 						display: block;
 						padding-top: 8px;
@@ -121,7 +117,6 @@ body {
 
 .sidebar li a:hover {
 						color: #EEA0A3;
-						text-decoration: none;
 						-webkit-transition-duration: 0.5s;
  					  transition-duration: all 0.5s;
 }
